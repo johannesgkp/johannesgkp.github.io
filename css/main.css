@@ -239,3 +239,8 @@ ol {
     cursor: pointer;
     opacity: 1.0;
 }
+
+.alignright {
+    float: right;
+    margin: 10px;
+}
