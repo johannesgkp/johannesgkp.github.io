@@ -240,6 +240,11 @@ ol {
     opacity: 1.0;
 }
 
+.alignleft {
+    float: left;
+    margin: 10px;
+}
+
 .alignright {
     float: right;
     margin: 10px;
