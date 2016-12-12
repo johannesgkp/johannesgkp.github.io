@@ -10,6 +10,7 @@ author: kj
 We have the desire to use existing accounts on other plattforms in order to do user management on our platform and to secure our API via OAuth2.
 We investigated OAuth2, social login, existing software, protocols, blogs, ...
 Thus we come up with the following workflow:
+	<img src="../ressources/images/authorization_API_workflow.png" alt="Workflow overview" style="width:356px;height:375px;" class="alignright">
 <ol>
 	<li>
 		The new user does a login with his/her favourite social platform, e.g. facebook or github, in the frontend via OAuth2 (and the UI of the social provider).
@@ -38,9 +39,6 @@ Thus we come up with the following workflow:
 		This token is also send to the frontend and stored in there.
 	</li>
 </ol>
-</p>
-<p>
-	<img src="../ressources/images/authorization_API_workflow.png" alt="Workflow overview" style="width:356px;height:375px;" class="alignright">
 </p>
 <br>
 <h4><u>Realization:</u></h4>
