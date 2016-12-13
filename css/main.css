@@ -217,11 +217,13 @@ hr {
 li {
     text-align: left;
 }
+/*
 ol {
-    text-align: justify;
-    align-self: justify;
-    align-content: justify;
+    text-align: center;
+    align-self: center;
+    align-content: center;
 }
+*/
 .scroll-top-wrapper {
     position: fixed;
     opacity: 0;
