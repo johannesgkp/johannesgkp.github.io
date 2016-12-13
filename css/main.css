@@ -98,6 +98,7 @@ i {
     margin: 8px;
     color: #DA6619;
     transition: all 0.2s ease 0s;
+	text-align: left;
 }
 #cs a, #frontend a, #services a, #opensource a, #team a, a > i, footer a {
     color: #1E78BB;
@@ -215,7 +216,7 @@ hr {
     letter-spacing: 1px;
 }
 li {
-    text-align: left;
+    text-align: justify;
 }
 /*
 ol {
