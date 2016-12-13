@@ -220,7 +220,7 @@ li {
 ol {
     text-align: justify;
     align-self: justify;
-    align-content: center;
+    align-content: justify;
 }
 .scroll-top-wrapper {
     position: fixed;
