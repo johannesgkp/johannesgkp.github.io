@@ -12,7 +12,7 @@
 }
 .txt {
     width: 50%;
-    text-align: center;
+    text-align: justify;
     font-weight: 500;
 }
 .contribute {
@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 	clear: left;
 	clear: right;
+	text-align: left;
 }
 h1 {
     font-size: 40px;
@@ -217,8 +218,8 @@ li {
     text-align: left;
 }
 ol {
-    text-align: center;
-    align-self: center;
+    text-align: justify;
+    align-self: justify;
     align-content: center;
 }
 .scroll-top-wrapper {
