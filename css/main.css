@@ -226,6 +226,12 @@ ol {
     align-content: center;
 }
 */
+
+iframe {
+	clear: left;
+	clear: right;	
+}
+
 .scroll-top-wrapper {
     position: fixed;
     opacity: 0;
