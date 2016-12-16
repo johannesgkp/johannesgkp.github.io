@@ -42,9 +42,11 @@ author: kj
 	</ol>
 </p>
 <br>
+
 <h4><u>Realization:</u></h4>
+
+<h4>1. and 2.</h4>
 <p>
-	<h4>1. and 2.</h4>
 	The first idea was that we just do the HTTPS requests manually as the social provider demand.
 	For our workflow we need the authorization code workflow of OAuth2 as descriped <a href="//www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">here</a>.
 	As I started implementing I started with facebook.
@@ -74,8 +76,9 @@ author: kj
 	Another thing which is different for each social provider is the scope parameter.
 	They depending on the API of each provider and have to be configured manually.
 </p>
+
+<h4>3.</h4>
 <p>
-	<h4>3.</h4>
 	As mentioned we are using the NodeJS module purest for this.
 	It helps using the API of multiple providers.
 	While using it for github and google, it seems that it does not the correct handling of the APIs.
@@ -85,18 +88,21 @@ author: kj
 	Github refuses at the moment to give me my email address.
 	Now we have to store (or update) the user information in the database.
 </p>
+
+<h4>4.</h4>
 <p>
-	<h4>4.</h4>
 	The NodeJS module request is suitable for that purpose, especially because Kong <a href="//github.com/Mashape/kong-oauth2-hello-world/blob/master/app.js">examples</a> are using it.
 	For this much code is needed because the URLs, payload and return is mostly quite differently.
 	But it works well!
 </p>
+
+<h4>5.</h4>
 <p>
-	<h3>5.</h3>
 	With purest we get our token from Kong, save it in the database and redirect to the frontend with the token and a few user information in the headers.
 </p>
 <br>
-<h4>Prospects</h4>
+
+<h3>Prospects</h3>
 <p>
 	This will be activated after the first september release.
 	As Kong should protect our API it have to be the proxy for all services.
