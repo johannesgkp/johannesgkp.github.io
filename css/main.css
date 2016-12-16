@@ -99,7 +99,7 @@ i {
     margin: 8px;
     color: #DA6619;
     transition: all 0.2s ease 0s;
-	text-align: left;
+	text-align: justify;
 }
 #cs a, #frontend a, #services a, #opensource a, #team a, a > i, footer a {
     color: #1E78BB;
